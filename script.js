@@ -31,7 +31,7 @@ const slidesData = [
 
 const localImages = Array.from(
   { length: 10 },
-  (_, i) => `./style/img/Anh%20(${i + 1}).jpg`,
+  (_, i) => `./Anh%20(${i + 1}).jpg`,
 );
 
 let currentSlide = 0;
